@@ -1,0 +1,9 @@
+.blurr-content{
+    background: #00df4a80;
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    width: 62%;
+}
+.navleft{
+    z-index: 999999;
+}
