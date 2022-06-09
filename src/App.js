@@ -10,6 +10,7 @@ import Account from './components/Account/Account';
 import ProtectedRoute from './components/ProtectedRoute';
 import Whoami from './components/Whoami/Whoami';
 import Contact from './components/Contact/Contact';
+import Works from './components/Works/Works';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/signup' element={<Signup />} />
           <Route path='/whoami' element={<Whoami />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/works' element={<Works />} />
           <Route path='/account' element={
             <ProtectedRoute>
               <Account />

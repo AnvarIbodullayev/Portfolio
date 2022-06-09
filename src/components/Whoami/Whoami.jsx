@@ -2,7 +2,7 @@ import React from 'react'
 import './Whoami.css'
 import { AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai';
 import { MdOutlineSaveAlt} from 'react-icons/md';
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from 'react-scroll-motion';
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveOut, Sticky, StickyIn, ZoomIn } from 'react-scroll-motion';
 import Item from '../Item/Item';
 
 export default function Whoami() {
